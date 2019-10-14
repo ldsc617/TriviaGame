@@ -1,0 +1,153 @@
+body {
+     background-image: url("../images/theater.png")!important;
+     background-position: contain;
+
+}
+.startscreen {
+    background-image: url("../images/film.jpeg");
+}
+
+.gamescreen {
+    background-image: url("../images/theater.png");
+}
+
+.resultscreen {
+    background-image: url("../images/vhs.jpg");
+}
+
+.container {
+
+    position: relative;
+    width: 70%;
+    background-color: white;
+    border: 5px solid red;
+    padding: 25px;
+    margin: 1% 0% 2% 11%;
+    border-radius: 15px; 
+    text-align: center;
+     
+}
+
+img {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    margin-top: -50px;
+    margin-left: -455px;
+    
+    
+}
+
+.theater {
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    width: 200px;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-bottom: 0;
+    padding: 20px;
+    padding-top: 50px;
+    
+}
+
+
+#startbutton {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    position: center;
+    width: 25%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 50% 0% 0% 0%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);     
+}
+
+#startbutton:hover {
+    background-color: red;
+    color: white;
+}
+
+.gamescreen {
+    background-image: url("../images/film.jpeg");
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#timeout {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: 73px;
+    margin-top: 200px;
+    margin-bottom: -500px;
+}
+
+#answers {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: 73px;
+    margin-top: 675px;
+}
+
+.submitresults {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 20%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 7% 0% 2% 0%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);      
+}
+
+.submitresults:hover {
+    background-color: red;
+    color: white;
+}
+
+.reset {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 25%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0% 0% 0% 0%;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);     
+}
+
+.reset:hover {
+    background-color: red;
+    color: white;
+}
